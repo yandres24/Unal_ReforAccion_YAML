@@ -14,4 +14,13 @@
         <item name="android:statusBarColor">@color/background</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Unal_ReforAccion_YAML.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
