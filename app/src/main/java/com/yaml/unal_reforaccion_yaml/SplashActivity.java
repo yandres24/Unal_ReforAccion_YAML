@@ -2,10 +2,10 @@ package com.yaml.unal_reforaccion_yaml;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
-import android.view.WindowManager;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -13,10 +13,30 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        FullScreencall();
+        FullScreenCast();
+        Thread timer= new Thread()
+        {
+            public void run()
+            {
+                try
+                {
+                    sleep(5000);
+                }
+                catch (InterruptedException e)
+                {
+                    e.printStackTrace();
+                }
+                finally
+                {
+                    Intent loginView = new Intent(SplashActivity.this, LoginActivity.class);
+                    startActivity(loginView);
+                }
+            }
+        };
+        timer.start();
     }
 
-    public void FullScreencall() {
+    public void FullScreenCast() {
         if(Build.VERSION.SDK_INT > 11 && Build.VERSION.SDK_INT < 19) { // lower api
             View v = this.getWindow().getDecorView();
             v.setSystemUiVisibility(View.GONE);
