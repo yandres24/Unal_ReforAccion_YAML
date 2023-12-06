@@ -6,62 +6,62 @@
     app:startDestination="@id/addTreePlantingActivity">
     <activity
         android:id="@+id/addTreePlantingActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.AddTreePlantingActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.AddTreePlantingActivity"
         android:label="activity_add_tree_planting"
         tools:layout="@layout/activity_add_tree_planting" />
     <activity
         android:id="@+id/addUserActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.AddUserActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.AddUserActivity"
         android:label="activity_add_user"
         tools:layout="@layout/activity_add_user" />
     <activity
         android:id="@+id/challengeActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.ChallengeActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.ChallengeActivity"
         android:label="activity_challenge"
         tools:layout="@layout/activity_challenge" />
     <activity
         android:id="@+id/forgotPasswordActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.ForgotPasswordActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.ForgotPasswordActivity"
         android:label="activity_forgot_password"
         tools:layout="@layout/activity_forgot_password" />
     <activity
         android:id="@+id/homeActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.HomeActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.HomeActivity"
         android:label="activity_home"
         tools:layout="@layout/activity_home" />
     <activity
         android:id="@+id/loginActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.LoginActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.LoginActivity"
         android:label="activity_login"
         tools:layout="@layout/activity_login" />
     <activity
         android:id="@+id/mapsActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.MapsActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.MapsActivity"
         android:label="activity_maps"
         tools:layout="@layout/activity_maps" />
     <activity
         android:id="@+id/profileActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.ProfileActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.ProfileActivity"
         android:label="activity_profile"
         tools:layout="@layout/activity_profile" />
     <activity
         android:id="@+id/registerActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.RegisterActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.RegisterActivity"
         android:label="activity_register"
         tools:layout="@layout/activity_register" />
     <activity
         android:id="@+id/splashActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.SplashActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.SplashActivity"
         android:label="activity_splash"
         tools:layout="@layout/activity_splash" />
     <activity
         android:id="@+id/statisticsActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.StatisticsActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.StatisticsActivity"
         android:label="activity_statistics"
         tools:layout="@layout/activity_statistics" />
     <activity
         android:id="@+id/tipsActivity"
-        android:name="com.yaml.unal_reforaccion_yaml.TipsActivity"
+        android:name="com.yaml.unal_reforaccion_yaml.ui.TipsActivity"
         android:label="activity_tips"
         tools:layout="@layout/activity_tips" />
 </navigation>

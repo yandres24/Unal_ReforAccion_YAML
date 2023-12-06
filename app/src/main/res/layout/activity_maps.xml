@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/maps"
-    tools:context=".MapsActivity">
+    tools:context=".ui.MapsActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
