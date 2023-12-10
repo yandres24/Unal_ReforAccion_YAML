@@ -23,4 +23,23 @@
     <style name="Theme.Unal_ReforAccion_YAML.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Unal_ReforAccion_YAML.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Unal_ReforAccion_YAML.TextInputLayout.Text" parent="Base.Widget.MaterialComponents.TextInputLayout">
+        <item name="materialThemeOverlay">
+            @style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox
+        </item>
+        <item name="boxCollapsedPaddingTop">0dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">50</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
 </resources>
