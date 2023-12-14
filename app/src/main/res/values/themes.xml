@@ -36,10 +36,36 @@
         <item name="counterEnabled">true</item>
         <item name="counterMaxLength">50</item>
         <item name="boxBackgroundMode">outline</item>
-        <item name="android:layout_marginStart">16dp</item>
-        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
         <item name="android:layout_marginTop">0dp</item>
-        <item name="android:layout_marginEnd">16dp</item>
-        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.Logo">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:background">@drawable/bg_logo</item>
+    </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.PrimaryButton">
+        <item name="counterEnabled">true</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/bg_principal_button</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.TextOptionalButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
     </style>
 </resources>

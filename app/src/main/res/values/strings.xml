@@ -9,10 +9,11 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="imagen_de_fondo">Imagen de fondo</string>
+    <string name="img_description_logo">Imagen de fondo</string>
     <string name="text_hint_password">Ingresa tu contraseña</string>
     <string name="text_hint_email">Ingresa tu correo electrónico</string>
     <string name="btn_login">Continuar</string>
     <string name="btn_forgot_password">Olvidaste la contraseña ?</string>
     <string name="btn_sing_up">Registrarse</string>
+    <string name="txt_title_login">Inicia sesión</string>
 </resources>
