@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Unal_ReforAccion_YAML</string>
+    <string name="app_name">ReforLab</string>
     <string name="title_activity_profile">ProfileActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -19,4 +19,6 @@
     <string name="txt_title_forgot_password">Recuperar contraseña</string>
     <string name="btn_title_forgot_password">Enviar</string>
     <string name="txt_email_maxLength">50</string>
+    <string name="btn_tittle_new_user">Crear cuenta</string>
+    <string name="btn_tittle_new_user_facebook">Iniciar sesión con Facebook</string>
 </resources>
