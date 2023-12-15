@@ -50,6 +50,13 @@
         <item name="android:background">@drawable/bg_logo</item>
     </style>
 
+    <style name="Theme.Unal_ReforAccion_YAML.Profile">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:background">@drawable/user_profile</item>
+    </style>
+
     <style name="Theme.Unal_ReforAccion_YAML.PrimaryButton">
         <item name="counterEnabled">true</item>
         <item name="boxBackgroundMode">outline</item>
