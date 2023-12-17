@@ -34,6 +34,13 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.4.3"
     }
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src\\main\\res', 'src\\main\\res\\icons'
+            }
+        }
+    }
     buildFeatures {
         viewBinding true
     }
