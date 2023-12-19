@@ -21,4 +21,5 @@
     <string name="txt_email_maxLength">50</string>
     <string name="btn_tittle_new_user">Crear cuenta</string>
     <string name="btn_tittle_new_user_facebook">Iniciar sesión con Facebook</string>
+    <string name="page_title">Inicio</string>
 </resources>
