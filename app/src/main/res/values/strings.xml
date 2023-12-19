@@ -22,4 +22,16 @@
     <string name="btn_tittle_new_user">Crear cuenta</string>
     <string name="btn_tittle_new_user_facebook">Iniciar sesión con Facebook</string>
     <string name="page_title">Inicio</string>
+
+    <string name="content_description_more">:</string>
+    <string name="content_description_notifications">Notificaciones</string>
+    <string name="more">:</string>
+    <string name="icon_notifications">Notificaciones</string>
+
+    <string name="tittle_home">Inicio</string>
+    <string name="tittle_add_tree_planting">Agregar zona</string>
+    <string name="tittle_statistics">Estadicticas</string>
+    <string name="tittle_maps">Zonas reforestadas</string>
+    <string name="tittle_tips">Tips</string>
+    <string name="tittle_challenge">Retos semanales</string>
 </resources>

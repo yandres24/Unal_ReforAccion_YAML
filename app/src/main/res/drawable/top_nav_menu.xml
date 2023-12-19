@@ -6,7 +6,7 @@
         android:id="@+id/notifications"
         android:icon="@drawable/icon_notifications"
         android:title="@string/icon_notifications"
-        android:contentDescription="@string/content_description_favorite"
+        android:contentDescription="@string/content_description_notifications"
         app:showAsAction="ifRoom" />
 
     <item

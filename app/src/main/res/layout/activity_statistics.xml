@@ -7,4 +7,17 @@
     android:background="@drawable/statistics"
     tools:context=".ui.StatisticsActivity">
 
+    <include
+        android:id="@+id/top_navigation"
+        layout="@layout/app_top_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:id="@+id/bottom_navigation"
+        layout="@layout/app_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

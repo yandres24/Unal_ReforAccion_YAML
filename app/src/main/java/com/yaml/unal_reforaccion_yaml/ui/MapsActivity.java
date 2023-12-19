@@ -1,6 +1,7 @@
 package com.yaml.unal_reforaccion_yaml.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 
@@ -12,5 +13,13 @@ public class MapsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+        setTittleToolbar();
+    }
+
+    public void setTittleToolbar() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.topAppBar);
+        toolbar.setTitle(R.string.tittle_maps);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

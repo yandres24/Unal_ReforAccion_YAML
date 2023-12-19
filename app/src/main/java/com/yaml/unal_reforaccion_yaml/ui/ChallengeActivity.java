@@ -1,6 +1,7 @@
 package com.yaml.unal_reforaccion_yaml.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 
@@ -12,5 +13,13 @@ public class ChallengeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_challenge);
+        setTittleToolbar();
+    }
+
+    public void setTittleToolbar() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.topAppBar);
+        toolbar.setTitle(R.string.tittle_challenge);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
