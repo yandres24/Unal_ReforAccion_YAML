@@ -24,7 +24,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <include android:id="@+id/imageViewProfile" layout="@layout/image_profile_app"/>
+            <include
+                android:id="@+id/imageViewProfile"
+                layout="@layout/image_profile_app" />
 
             <TextView
                 android:id="@+id/txtTitle"
