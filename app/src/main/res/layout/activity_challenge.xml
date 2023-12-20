@@ -13,6 +13,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <ScrollView
+        style="@style/Theme.Unal_ReforAccion_YAML.ScrollViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintTop_toBottomOf="@+id/top_navigation">
+
+    </ScrollView>
+
     <include
         android:id="@+id/bottom_navigation"
         layout="@layout/app_bottom_navigation"

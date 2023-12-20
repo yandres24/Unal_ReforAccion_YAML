@@ -75,4 +75,12 @@
         <item name="android:layout_height">60dp</item>
         <item name="android:background">@android:color/darker_gray</item>
     </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.ScrollViewContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">50dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:fillViewport">false</item>
+    </style>
 </resources>
