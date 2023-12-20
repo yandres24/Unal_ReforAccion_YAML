@@ -34,4 +34,5 @@
     <string name="tittle_maps">Zonas reforestadas</string>
     <string name="tittle_tips">Tips</string>
     <string name="tittle_challenge">Retos semanales</string>
+    <string name="content_description_menu_item">Imagen menu</string>
 </resources>
