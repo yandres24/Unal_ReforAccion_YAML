@@ -30,7 +30,7 @@
     <string name="txt_phone_maxLength">10</string>
     <string name="txt_password_maxLength">10</string>
 
-    <string name="content_description_more">:</string>
+    <string name="content_description_more">Configuración</string>
     <string name="content_description_notifications">Notificaciones</string>
     <string name="more">:</string>
     <string name="icon_notifications">Notificaciones</string>

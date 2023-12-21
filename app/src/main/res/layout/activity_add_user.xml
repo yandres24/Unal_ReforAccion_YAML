@@ -124,7 +124,7 @@
             app:layout_constraintTop_toBottomOf="@+id/lytPassword" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnLogin"
+            android:id="@+id/btnAddUser"
             style="@style/Theme.Unal_ReforAccion_YAML.PrimaryButton"
             android:text="@string/btn_login"
             app:layout_constraintBottom_toBottomOf="parent"
