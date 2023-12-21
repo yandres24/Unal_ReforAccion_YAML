@@ -29,6 +29,7 @@
     <string name="text_hint_phone">Ingresa tu teléfono</string>
     <string name="txt_phone_maxLength">10</string>
     <string name="txt_password_maxLength">10</string>
+    <string name="developer_name">Andres Merchan</string>
 
     <string name="content_description_more">Configuración</string>
     <string name="content_description_notifications">Notificaciones</string>
@@ -44,4 +45,16 @@
     <string name="content_description_menu_item">Imagen menu</string>
     <string name="txt_title_add_user">Crear cuenta</string>
     <string name="lbl_terms_and_conditions">Acepto la política de tratamiento de datos personales</string>
+    <string name="description_user_image">user image</string>
+    <string name="txt_profile_notifications">Notificaciones</string>
+    <string name="txt_profile_messages">Mensajes</string>
+    <string name="txt_profile_revisions">Revisiones</string>
+    <string name="txt_profile_name">Administrador de plataforma</string>
+    <string name="description_profile_logo_image">logo</string>
+    <string name="txt_profile_address">Cra 123 # 12 - 45</string>
+    <string name="txt_profile_phone">+57 399999999</string>
+    <string name="txt_profile_email">userx@gmail.com</string>
+    <string name="txt_profile_number_revisions">360</string>
+    <string name="txt_profile_number_messages">1205</string>
+    <string name="txt_profile_number_notifications">125</string>
 </resources>
