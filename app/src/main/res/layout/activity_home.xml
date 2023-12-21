@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_margin="20dp"
-                android:text="@string/txt_title_login"
+                android:text="@string/developer_name"
                 android:textSize="30sp"
                 android:textStyle="bold|italic"
                 app:layout_constraintEnd_toEndOf="parent"

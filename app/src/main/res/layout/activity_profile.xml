@@ -21,13 +21,13 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:src="@drawable/user_profile"
-                android:contentDescription="user image" />
+                android:contentDescription="@string/description_user_image" />
             <TextView
                 android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="User X"
+                android:text="@string/developer_name"
                 android:textColor="#fff"
                 android:textStyle="bold"
                 android:textSize="21sp"/>
@@ -52,13 +52,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Notificaciones"
+                        android:text="@string/txt_profile_notifications"
                         android:textSize="18sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="125"
+                        android:text="@string/txt_profile_number_notifications"
                         android:textStyle="bold"
                         android:textSize="20sp"
                         android:paddingTop="10dp"
@@ -73,13 +73,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mensajes"
+                        android:text="@string/txt_profile_messages"
                         android:textSize="18sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1205"
+                        android:text="@string/txt_profile_number_messages"
                         android:textStyle="bold"
                         android:textSize="20sp"
                         android:paddingTop="10dp"
@@ -95,13 +95,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Revisiones"
+                        android:text="@string/txt_profile_revisions"
                         android:textSize="18sp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="360"
+                        android:text="@string/txt_profile_number_revisions"
                         android:textStyle="bold"
                         android:textSize="20sp"
                         android:paddingTop="10dp"
@@ -126,14 +126,14 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:src="@drawable/ic_launcher_background"
-                android:contentDescription="logo" />
+                android:contentDescription="@string/description_profile_logo_image" />
             <TextView
                 android:textStyle="bold"
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="userx@gmail.com"/>
+                android:text="@string/txt_profile_email"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="25dp"
@@ -151,7 +151,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="+57 399999999"/>
+                android:text="@string/txt_profile_phone"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="25dp"
@@ -163,14 +163,14 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:src="@drawable/ic_launcher_background"
-                android:contentDescription="logo" />
+                android:contentDescription="@string/description_profile_logo_image" />
             <TextView
                 android:textStyle="bold"
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="User"/>
+                android:text="@string/txt_profile_address"/>
         </LinearLayout>
         <LinearLayout
             android:layout_marginTop="25dp"
@@ -182,14 +182,14 @@
                 android:layout_width="36dp"
                 android:layout_height="36dp"
                 android:src="@drawable/ic_launcher_background"
-                android:contentDescription="logo" />
+                android:contentDescription="@string/description_profile_logo_image" />
             <TextView
                 android:textStyle="bold"
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="20dp"
-                android:text="Administrador de plataforma"/>
+                android:text="@string/txt_profile_name"/>
         </LinearLayout>
     </LinearLayout>
 
