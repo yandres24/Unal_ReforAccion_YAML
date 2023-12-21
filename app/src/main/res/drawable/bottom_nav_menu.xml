@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/maps"
+        android:title="Mapa"
+        android:icon="@drawable/icon_maps"/>
+    <item
+        android:id="@+id/challenges"
+        android:title="Retos"
+        android:icon="@drawable/icon_list"/>
+    <item
+        android:id="@+id/home"
+        android:title="Inicio"
+        android:icon="@drawable/icon_home"/>
+    <item
+        android:id="@+id/statistics"
+        android:title="Estadisticas"
+        android:icon="@drawable/icon_statistics"/>
+    <item
+        android:id="@+id/tips"
+        android:title="Tips"
+        android:icon="@drawable/icon_tips"/>
+</menu>

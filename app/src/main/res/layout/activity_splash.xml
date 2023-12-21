@@ -4,19 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".SplashActivity">
+    android:background="@drawable/background_gradient"
+    tools:context=".ui.SplashActivity">
     <!-- Auto layout, variables, and unit scale are not yet supported -->
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/shape_with_"
-        android:background="@drawable/splash"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="-18dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".SplashActivity"/>
 
-    />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

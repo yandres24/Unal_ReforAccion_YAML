@@ -5,6 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/tips"
-    tools:context=".TipsActivity">
+    tools:context=".ui.TipsActivity">
+
+    <include
+        android:id="@+id/top_navigation"
+        layout="@layout/app_top_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        style="@style/Theme.Unal_ReforAccion_YAML.ScrollViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintTop_toBottomOf="@+id/top_navigation">
+
+    </ScrollView>
+
+    <include
+        android:id="@+id/bottom_navigation"
+        layout="@layout/app_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

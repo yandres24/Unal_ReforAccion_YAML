@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Unal_ReforAccion_YAML</string>
+    <string name="app_name">ReforLab</string>
     <string name="title_activity_profile">ProfileActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -9,4 +9,39 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="img_description_logo">Imagen de fondo</string>
+    <string name="text_hint_password">Ingresa tu contraseña</string>
+    <string name="text_hint_email">Ingresa tu correo electrónico</string>
+    <string name="btn_login">Continuar</string>
+    <string name="btn_forgot_password">Olvidaste la contraseña ?</string>
+    <string name="btn_sing_up">Registrarse</string>
+    <string name="txt_title_login">Inicia sesión</string>
+    <string name="txt_title_forgot_password">Recuperar contraseña</string>
+    <string name="btn_title_forgot_password">Enviar</string>
+    <string name="txt_email_maxLength">50</string>
+    <string name="btn_tittle_new_user">Crear cuenta</string>
+    <string name="btn_tittle_new_user_facebook">Iniciar sesión con Facebook</string>
+    <string name="page_title">Inicio</string>
+    <string name="text_hint_names">Ingresa tus nombres</string>
+    <string name="txt_names_maxLength">50</string>
+    <string name="text_hint_surnames">Ingresa tus apellidos</string>
+    <string name="txt_surnames_maxLength">50</string>
+    <string name="text_hint_phone">Ingresa tu teléfono</string>
+    <string name="txt_phone_maxLength">10</string>
+    <string name="txt_password_maxLength">10</string>
+
+    <string name="content_description_more">Configuración</string>
+    <string name="content_description_notifications">Notificaciones</string>
+    <string name="more">:</string>
+    <string name="icon_notifications">Notificaciones</string>
+
+    <string name="tittle_home">Inicio</string>
+    <string name="tittle_add_tree_planting">Agregar zona</string>
+    <string name="tittle_statistics">Estadicticas</string>
+    <string name="tittle_maps">Zonas reforestadas</string>
+    <string name="tittle_tips">Tips</string>
+    <string name="tittle_challenge">Retos semanales</string>
+    <string name="content_description_menu_item">Imagen menu</string>
+    <string name="txt_title_add_user">Crear cuenta</string>
+    <string name="lbl_terms_and_conditions">Acepto la política de tratamiento de datos personales</string>
 </resources>

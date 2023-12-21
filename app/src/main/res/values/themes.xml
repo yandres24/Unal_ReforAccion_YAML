@@ -23,4 +23,64 @@
     <style name="Theme.Unal_ReforAccion_YAML.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Unal_ReforAccion_YAML.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Unal_ReforAccion_YAML.TextInputLayout.Text" parent="Base.Widget.MaterialComponents.TextInputLayout">
+        <item name="materialThemeOverlay">
+            @style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox
+        </item>
+        <item name="boxCollapsedPaddingTop">0dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="counterEnabled">true</item>
+        <item name="counterMaxLength">50</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+    </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.Logo">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:background">@drawable/bg_logo</item>
+    </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.Profile">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:background">@drawable/user_profile</item>
+    </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.PrimaryButton">
+        <item name="counterEnabled">true</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/bg_principal_button</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.TextOptionalButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="Theme.Unal_ReforAccion_YAML.ScrollViewContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">50dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:fillViewport">true</item>
+    </style>
 </resources>
