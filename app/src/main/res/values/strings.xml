@@ -22,6 +22,13 @@
     <string name="btn_tittle_new_user">Crear cuenta</string>
     <string name="btn_tittle_new_user_facebook">Iniciar sesión con Facebook</string>
     <string name="page_title">Inicio</string>
+    <string name="text_hint_names">Ingresa tus nombres</string>
+    <string name="txt_names_maxLength">50</string>
+    <string name="text_hint_surnames">Ingresa tus apellidos</string>
+    <string name="txt_surnames_maxLength">50</string>
+    <string name="text_hint_phone">Ingresa tu teléfono</string>
+    <string name="txt_phone_maxLength">10</string>
+    <string name="txt_password_maxLength">10</string>
 
     <string name="content_description_more">:</string>
     <string name="content_description_notifications">Notificaciones</string>
@@ -35,4 +42,6 @@
     <string name="tittle_tips">Tips</string>
     <string name="tittle_challenge">Retos semanales</string>
     <string name="content_description_menu_item">Imagen menu</string>
+    <string name="txt_title_add_user">Crear cuenta</string>
+    <string name="lbl_terms_and_conditions">Acepto la política de tratamiento de datos personales</string>
 </resources>
